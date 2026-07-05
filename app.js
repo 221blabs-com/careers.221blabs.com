@@ -11,7 +11,7 @@ const MAKE_WEBHOOK_URL = "https://hook.eu1.make.com/1gk11fprn8yzznfkhfiewuib85x5
 
 const COMPANY = {
   name: "221B Labs",
-  city: "Hyderabad, Telangana",
+  city: "India",
 };
 
 const $app = document.getElementById("app");
@@ -39,7 +39,7 @@ function header(activeCrumb){
   return `
     <header class="site-header">
       <div class="wrap">
-        <a href="https://www.221blabs.com/" class="brand">
+        <a href="#" class="brand">
           <span class="mark">221B</span>
           <span>Labs</span>
           <span class="city">— ${COMPANY.city}</span>
@@ -88,13 +88,13 @@ function renderHome(){
         <div class="eyebrow"><span class="dot"></span> NOW HIRING</div>
         <h1>Join the team building <em>221B Labs</em>.</h1>
         <p class="lede">
-          We're a Hyderabad-based product and software studio, currently hiring part-time
-          across Sales, Technical, Marketing, and Design. Real responsibility, flexible hours.
+          We are a fast-growing product and software company seeking talented part-time professionals to join our team. 
+          We offer flexible schedules, meaningful ownership, and the opportunity to build products that create real-world impact.
         </p>
         <div class="file-index">
           <span><b>${totalOpenRoles()}</b> open roles</span>
           <span><b>4</b> departments</span>
-          <span><b>Part-time</b> only, for now</span>
+          <!-- <span><b>Part-time</b> only, for now</span> -->
         </div>
       </div>
     </section>

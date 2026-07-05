@@ -649,8 +649,8 @@ const DEPARTMENTS = [
         ],
       },
       {
-        id: "motion-graphics-designer",
-        title: "Motion Graphics Designer",
+        id: "editor",
+        title: "Editor",
         oneLiner: "Make static things move — and make people stop scrolling.",
         summary:
           "You'll create Reels, promotional videos, and product demo content that gives 221B Labs a real, dynamic presence across social and marketing channels. This is a Performance-Based Opportunity for a video-first creator who understands what keeps someone watching past the first three seconds.",
