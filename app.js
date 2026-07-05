@@ -205,7 +205,7 @@ function renderRole(deptId, roleId){
     </section>
 
     <section class="role-body">
-      <div class="wrap" style="display:contents;">
+      <div class="wrap">
         <div class="role-content reveal">
           <section>
             <h2>About the role</h2>
@@ -357,7 +357,7 @@ function wireApplyForm(dept, role){
       form.querySelector('.type-option[data-value="part-time"]').classList.add("selected");
 
       msg.className = "form-msg show ok";
-      msg.textContent = "Application received. Check your email for confirmation shortly.";
+      msg.textContent = "Application received.";
       submitBtn.textContent = "Submit application";
       submitBtn.disabled = false;
     }catch(err){
